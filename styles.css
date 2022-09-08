@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background-color: black;
+}
+section {
+    width: 90%;
+    height: 90%;
+    font-family: monospace, ubuntu, 'sans-sérif';
+    font-size: 1.2em;
+    color: white;
+}
+h1, h2, h3, h4 {
+    line-height: 0.7em;
+}
+h1 {
+    font-size: 1.6em;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-align: center;
+}
+h2 {
+    font-size: 1.4em;
+}
+a {
+    color: red;
+    text-align: center;
+}
+h3 {
+    display: inline-block;
+    width: 10%;
+    color: greenyellow;
+}
+h4 {
+    display: inline-block;
+    width: 80%;
+}
